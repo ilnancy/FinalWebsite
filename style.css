@@ -1,0 +1,237 @@
+
+body{
+           margin: 0;
+           padding:0;
+           font-family:Georgia, 'Times New Roman', Times, serif;
+           font-size: 100%;
+           line-height: 2;
+
+           /*layout-------------- */
+
+       }
+        *{
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+        div.container{
+          border: 5px solid rgb(199, 213, 235);
+          width: 70%;
+          margin: 0 auto;
+          }
+        header{
+          background-color: rgb(144, 178, 192);
+          overflow: hidden; /*overflow: hidden results in floats being contained*/
+          position: relative;
+          margin: 0 0 20px 0;
+          padding: 20px 0;
+        }
+
+        main {
+            overflow: hidden;
+            width: 30%;
+            width: 80%;
+            margin-bottom: 1.6em;
+            line-height: 1.2;
+        }
+        
+        /* HEADER COMPONENT ---- */
+        #logo {
+            text-align: left;
+        }
+        nav {
+            margin: 40px 0 0 0;
+        }
+
+        
+
+        .hero img{
+          width: 100%;
+        }
+        
+        div.left, div.middle, div.right{
+          border: 4px dotted rgb(174, 189, 232);
+          width: 60%;
+        }
+        
+        aside img{
+          width: 100%;
+        }
+        aside{
+          display: flex;
+          justify-content: space-between;
+        }
+        
+        nav{
+          background-color: rgb(70, 106, 187);
+        
+        
+        }
+        
+        ul{
+        text-align: center;
+        
+        }
+        li{
+        display: inline-block;
+        width: 13%;
+        border: 2px solid white;
+        line-height: 3em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-variant: small-caps;
+        }
+        a{
+          color: aliceblue;
+          text-decoration: none;
+      
+        }
+        
+        button{
+            width:150px;
+            background-color: rgb(186, 200, 215);
+            background-blend-mode: hue;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            text-transform: uppercase;
+            font-size: small;
+            letter-spacing: 3px;
+            
+        }
+        
+        .one {
+            background-color: rgb(0, 204, 109);
+            color: white;
+            padding: 10px;
+            letter-spacing: 3px;
+            }
+            .two {
+            background-color: rgb(250, 170, 21);
+            color: white;
+            padding: 10px;
+            letter-spacing: 3px;
+            }
+            
+            .three {
+            background-color: rgb(168, 96, 168);
+            color: white;
+            padding: 10px
+            }
+
+
+
+
+
+
+
+
+        #wrapper h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-style: normal;
+        color: rgb(9, 54, 69);
+        margin:0;
+        padding: 20px 0 15px
+    }
+
+
+     header{
+       background-color: rgb(230, 239, 243);
+       padding: 15px;
+     }
+    footer{
+        overflow: hidden;
+        clear: both;
+        background-color:rgb(128, 145, 157);
+        color: white;
+        line-height: 1.5em; 
+        padding: 25px;
+        border-top: 1px dashed rgba(0, 0, 255, 0.418);
+    }   
+    
+    h1+img{
+      position: absolute;
+      top: 5px;
+      width: 10%;
+    } 
+
+    header h2{
+      padding-top: 50px;
+      font-family: cursive;
+    }
+    
+.slideshow{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.slideshow a{
+  flex-basis: auto;
+}
+.cycle-slideshow img{
+  width: 100%;
+}
+@media screen and (max-width: 600px){
+  nav ul{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.teaser img{
+        width: 80%;
+        float: left;
+    }
+    nav{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(49, 69, 108);
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background-color: #04628e;
+        width: 100%;
+    }
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 12px 30px;
+    }
+    
+    li a:hover{
+        background-color: rgb(36, 114, 151);
+    }
+    
+    .active{
+        background-color: rgb(40, 125, 155);
+    }
+    
+    @media screen and (min-width: 601px){
+        li{
+            width: 24%;
+            margin: 0;
+            padding: 0;
+            float: left;
+            box-sizing: border-box;
+        }
+    }
+    nav{
+        overflow: hidden;
+    }
+    .teaser, .mission, article{
+        width: 30%;
+        float: left;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    .content{
+        overflow: hidden;
+    }
+
+
+     
